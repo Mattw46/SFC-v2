@@ -1,0 +1,214 @@
+body {
+	background-color: #f3f3f3;
+}
+
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	height: 150px;
+}
+
+.banner {
+	float: right;
+	margin-right: 150px;
+	margin-top: 0px;
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+#nav {
+/*background-color: #3c90d0; */
+color: #ffffff;
+margin: 10px 10px 0px 10px; clear: both;
+}
+
+#nav ul {
+/*background-color: #3c90d0;*/
+border-top:	thin solid black;
+border-bottom: thin solid black;
+padding-top: 15px;
+padding-bottom: 15px;
+list-style-type: none;
+/*padding: 2px 0px 3px 0px;*/
+}
+
+#nav ul li {
+display: inline;
+padding: 5px 10px 5px 10px;
+}
+
+#nav ul li a:link, ul li a:visited {
+color: #000000;
+border-bottom: none;
+font-weight: bold;
+text-decoration: none;
+}
+
+#nav ul li.selected a {
+color: grey;
+padding-top: 5.5px;
+padding-bottom: 7px;
+}
+
+.login {
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 5px;
+}
+
+a.Link-Button {
+	border-right-width: 1px;
+	border-right: solid white;
+}
+
+#main {
+	background-color: white;
+	/*padding-left: 20px;
+	padding-right: 20px;*/
+}
+
+h2 {
+	color: #9E69C8;
+        padding-left: 20px;
+	padding-right: 20px;
+}
+
+h3 {
+	color: #9E69C8;
+        padding-left: 20px;
+	padding-right: 20px;
+}
+
+h4 {
+	margin-bottom: 0px;	
+	color: #9E69C8;
+        padding-left: 20px;
+	padding-right: 20px;
+}
+
+p {
+        padding-left: 20px;
+	padding-right: 20px;
+}
+
+form {
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+.text {
+	margin-bottom: 0px;
+}
+
+.disclaimer {
+	font-size: 0.7em;
+	font-style: italic;	
+	margin-top: 2px;
+}
+
+.contact-content {
+	margin-top: 5px;	
+}
+
+.contact-label {
+	margin-bottom: 5px;	
+	font-weight: bold;
+	color: #454545;
+}
+
+.service {
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.sub-service {
+	padding-bottom: 20px;
+	font-weight: normal;
+	padding-top: 5px;
+}
+
+.lElement {
+	padding-bottom: 5px;	
+}
+
+a {
+	text-decoration: none;
+        color: #9E69C8;
+}
+
+.error {
+	color: red;
+	display:none;
+}
+
+.label {
+	font-weight: bold;	
+	margin: 0px;
+	color: #454545;/*#9E69C8;*/
+}
+
+.gender {
+	font-weight: normal;
+	margin-left: 65px;	
+}
+
+.gender-type {
+	padding-left: 5px;	
+}
+
+.ccn { /* Credit Card Number*/
+	width: 130px;
+}
+
+.cce { /* Credit Card Expiry field*/
+	width: 50px;
+	text-align: center;
+}
+
+#image-row {
+	width: 80%; 
+	margin-left: auto; 
+	margin-right: auto;
+	padding-bottom: 25px;
+}
+
+#image-left {
+	margin-right: 35px;
+}
+
+#footer {
+	margin-top: 25px;
+}
+
+.year {
+	margin-left: 25px;
+}
+
+.wrapper {
+	float: right;
+	margin-right: 15px;
+}
+
+.link {
+	color: #9E69C8;
+}
+
+.caption {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 1.8em;
+}
+
+.errorMessage {
+	font-weight: bold;
+	font-size: 1.4em;
+	color: red;
+}
+
+#extraSpace {
+	padding-bottom: 25px;
+}
